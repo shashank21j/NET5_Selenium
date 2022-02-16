@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="02/16/2022 11:21:47">
+  <assembly name="C:\Projects\HackerRank_Projects\.NET5_Selenium\eBankingApp\eBankingTests\bin\Debug\net5.0\eBankingTests.dll" run-date="2022-02-16" run-time="11:21:47" total="4" passed="4" failed="0" skipped="0" time="24.434" errors="0">
+    <errors />
+    <collection total="4" passed="4" failed="0" skipped="0" name="Test collection for eBankingTests.IntegrationTestFixtures" time="24.434">
+      <test name="CallHomePage_UsingSeleniumAndWebApplicationFactory" type="eBankingTests.IntegrationTestFixtures" method="CallHomePage_UsingSeleniumAndWebApplicationFactory" time="9.9974631" result="Pass">
+        <output>Navigating to 'http://localhost:5000/home/index...'
+
+</output>
+        <traits />
+      </test>
+      <test name="testEmptyLoanDetails" type="eBankingTests.IntegrationTestFixtures" method="testEmptyLoanDetails" time="4.4304205" result="Pass">
+        <output>InitializeWithTypeReplacements(): TestServer is null = False
+
+</output>
+        <traits />
+      </test>
+      <test name="testCorrectLoanDetails" type="eBankingTests.IntegrationTestFixtures" method="testCorrectLoanDetails" time="5.2128447" result="Pass">
+        <output>InitializeWithTypeReplacements(): TestServer is null = False
+
+</output>
+        <traits />
+      </test>
+      <test name="testIncorrectDetails" type="eBankingTests.IntegrationTestFixtures" method="testIncorrectDetails" time="4.7929305" result="Pass">
+        <output>InitializeWithTypeReplacements(): TestServer is null = False
+
+</output>
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>

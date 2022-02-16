@@ -1,0 +1,39 @@
+﻿@model LoanDetails
+{
+    @ViewData["Title"] = "Hacker Rank: Loan Application"
+}
+<!--EBanking Form-->
+<div class="card w-50 mx-auto mt-50">
+    <h4 align="center" class="text-center pt-20" id="headerValue">Fill Loan Details</h4>
+    <section class="card-text">
+        <form method="post" action="@Url.Action("loan","Home")" class="layout-column align-items-stretch mx-16">
+            <label class="form-hint" asp-for=firstName>First Name</label>
+            <input asp-for=firstName class="large" id="fname" maxlength="8" minlength="4" name="firstName" placeholder="Your first name"
+                   required size="10" type="text"/>
+
+            <label class="form-hint mt-16" asp-for=lastName>Last Name</label>
+            <input asp-for=lastName class="large" id="lname" maxlength="8" minlength="4" name="lastName" placeholder="Your last name"
+                   required type="text"/>
+
+            <label class="form-hint mt-16" asp-for=email>Email</label>
+            <input asp-for=email class="large" id="email" maxlength="8" minlength="4" name="email" placeholder="Your email" required
+                   type="email"/>
+
+            <label class="form-hint mt-16" for="loanType">Loan Type</label>
+            <select id="loanType" name="loanType" required>
+                <option value="Commercial">Commercial</option>
+                <option value="Real estate">Real estate</option>
+                <option value="Personal">Personal</option>
+                <option value="Mortgage">Mortgage</option>
+            </select>
+
+            <label class="form-hint mt-16" asp-for=loanDuration>Loan Duration</label>
+            <input asp-for=loanDuration class="large" id="loanDuration" max="8" min="4" name="loanDuration" placeholder="Loan Duration"
+                   required type="number">
+
+            <button class="mt-50" id="submit" type="submit">Submit</button>
+        </form>
+    </section>
+</div>
+<!--EBanking Form-->
+

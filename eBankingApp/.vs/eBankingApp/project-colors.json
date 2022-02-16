@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "609a30bc-4a75-4f8b-95cf-319e8c5436ed": {
+      "ProjectGuid": "609a30bc-4a75-4f8b-95cf-319e8c5436ed",
+      "DisplayName": "eBankingApp",
+      "ColorIndex": 0
+    },
+    "6a828a56-1c81-42bf-a482-1b729750132a": {
+      "ProjectGuid": "6a828a56-1c81-42bf-a482-1b729750132a",
+      "DisplayName": "eBankingTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
